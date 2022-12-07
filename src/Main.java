@@ -4,7 +4,7 @@ public class Main {
         System.out.println(resultadosuma);
         Coche miCoche = new Coche();
         miCoche.anadirPuerta();
-        System.out.println(miCoche.nPuertas);
+        System.out.println("Mi coche tiene " + miCoche.nPuertas + " puertas.");
 
     }
     public static int suma(int a, int b, int c) {
